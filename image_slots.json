@@ -8,7 +8,18 @@
     "w_px": 1280,
     "h_px": 720,
     "style_hint": "corporate",
-    "prompt_hint": "Aerial nighttime view of a modern Japanese smart city with illuminated water infrastructure pipelines visible beneath transparent streets, glowing blue data streams flowing along the pipeline network, Tokyo skyline in the background with subtle corporate feel, dark dramatic atmosphere with blue and white accent lighting"
+    "prompt_hint": "Aerial nighttime view of a modern Japanese metropolitan city with illuminated underground infrastructure networks visible beneath transparent streets — water pipelines, gas lines, and power grids glowing in blue and red light streams flowing through the urban grid. Tokyo Bay skyline in the background with corporate office towers. Subtle data visualization overlay with geometric patterns. Dark dramatic atmosphere with accent lighting. No people, no faces. Photorealistic, cinematic, professional corporate aesthetic."
+  },
+  {
+    "slide_idx": 1,
+    "x_emu": 8074152,
+    "y_emu": 1819656,
+    "w_emu": 4114800,
+    "h_emu": 4535424,
+    "w_px": 432,
+    "h_px": 476,
+    "style_hint": "diagram",
+    "prompt_hint": "縦長のビジネスインフォグラフィック図。上下2層の構造で、GISの現状と課題を対比する。上部エリア（白背景、黒枠）に「GISで実現できていること」の見出し、その下に3つの角丸ボックスが縦に並ぶ：「設備情報・台帳管理」（データベースアイコン）、「維持管理履歴の蓄積」（時計アイコン）、「空間データの可視化」（地図アイコン）。中央に太い横線のセパレータ。下部エリア（薄いグレー背景、赤枠）に「依然として属人的判断に依存」の見出し、その下に3つの角丸ボックス：「設備更新・修繕の優先順位付け」（チェックリストアイコン）、「投資配分の最適化」（円グラフアイコン）、「リスクの定量的評価」（警告アイコン）。最下部に赤帯で「意思決定支援には未踏」のまとめ。黒・白・赤のカラースキーム、Noto Sans JP フォント。"
   },
   {
     "slide_idx": 2,
@@ -19,10 +30,10 @@
     "w_px": 432,
     "h_px": 476,
     "style_hint": "diagram",
-    "prompt_hint": "縦長のビジネスインフォグラフィック。上部に大きく「水道DX市場」と見出し。中央に大きな円グラフ風の図形で「1,400事業者」「72万km管路」の数値を強調表示。その下に4つの横長ボックスが縦に並ぶ：「国土強靭化計画 R9年度100%」「管路更新投資 年間1兆円」「経年化率22%超」「職員数30%減」。各ボックスの左端にアイコン（政策は旗、投資は円マーク、老朽化は警告、人材はユーザー）。黒・白・赤のカラースキーム。最下部に「GIS×AI統合パッケージで先行者優位を確保」のまとめ。"
+    "prompt_hint": "縦長の左右分離ブリッジ図。上部に大きな見出し「GIS × AI ＝ 意思決定基盤」。中央に横長の3カラム構造：左カラム（黒背景、白文字）に「PASCO パスカル」のラベルと「全国1,000自治体GIS基盤」「水道台帳・設備情報」「維持管理履歴」の3項目、中央カラム（赤背景、白文字）に太字大見出し「AIVALIX INFRAI」と「故障リスク算出」「優先順位の自動化」「投資最適化」の3項目、右カラム（白背景、黒枠）に「意思決定」ラベルと「更新計画」「投資判断」「経営意思決定」の3項目。左カラムから中央カラムへ「データ供給」の太い矢印、中央カラムから右カラムへ「意思決定支援」の太い矢印。最下部に帯状のキャプション「データ基盤と意思決定の明確な役割分担」。黒・白・赤のカラースキーム、Noto Sans JP フォント。"
   },
   {
-    "slide_idx": 5,
+    "slide_idx": 3,
     "x_emu": 8074152,
     "y_emu": 1819656,
     "w_emu": 4114800,
@@ -30,17 +41,17 @@
     "w_px": 432,
     "h_px": 476,
     "style_hint": "diagram",
-    "prompt_hint": "TUMSYプラットフォームの構造を示す縦長の階層図。最上部に「TUMSY」のロゴ風テキスト。その下に5つの機能モジュールが縦に積み重なる形式で配置：「管路台帳GIS」（地図アイコン）、「施設情報管理」（データベースアイコン）、「モバイルGIS」（スマートフォンアイコン）、「公開型GIS」（地球アイコン）、「CAD・断水検索」（設計図アイコン）。各モジュールは角丸ボックスで表現し、左側にフラットデザインアイコン、右側に簡潔な説明テキスト。最下部に「水道・ガス・電力・下水道　マルチインフラ対応」の帯。白背景、黒テキスト、赤のアクセントライン。"
+    "prompt_hint": "縦長の2象限マトリクス図。上部に大きな見出し「TUMSYの現在地と高度化余地」。中央に2×2マトリクス：横軸「運用の高度化（左：低→右：高）」、縦軸「意思決定の統合（下：低→上：高）」。右下象限（赤でハイライト）に大きな円で「TUMSY 現在地」——ラベル「運用は高度化／意思決定は未統合」。右下象限から右上象限へ斜め上向きの太い赤矢印で「INFRAIによる高度化」、矢印先に「目標領域」の円。各象限の下にTUMSYの強み項目を箱で表示：「高密度都市インフラ網」「圧力・流量・事故履歴データ」「保守・点検オペレーション情報」。最下部に赤帯「運用は高度化されているが、最適化・意思決定は未統合」のまとめ。黒・白・赤のカラースキーム、Noto Sans JP フォント。"
   },
   {
-    "slide_idx": 8,
-    "x_emu": 8074152,
+    "slide_idx": 4,
+    "x_emu": 8531352,
     "y_emu": 1819656,
-    "w_emu": 4114800,
+    "w_emu": 3657600,
     "h_emu": 4535424,
-    "w_px": 432,
+    "w_px": 384,
     "h_px": 476,
     "style_hint": "diagram",
-    "prompt_hint": "東京ガスのメリットを示す縦長の5段ピラミッド図。上から下へ5つの階層が積み重なる：最上段「AI付加価値で差別化」（ダイヤモンドアイコン）、2段目「ドメイン知見の転用」（歯車アイコン）、3段目「既存顧客アップセル」（上向き矢印アイコン）、4段目「全国1,400事業者へ横展開」（日本地図アイコン）、最下段「出資リターン」（グラフ右肩上がりアイコン）。各段は左に赤いアイコン、右に日本語ラベル。ピラミッド全体の右側に「三重の収益機会」を示す矢印。白背景、黒テキスト、赤アクセント。"
+    "prompt_hint": "縦長の3段階上昇フロー図。上部に大きな見出し「価値創出から外販展開へ」。中央に縦方向の3段階フロー：最下段（白背景、黒枠）に「Phase 1：意思決定基盤化」ラベルと「リスク定量可視化／更新計画最適化／投資判断高度化／EBPM実現」の4項目、その上に上向き矢印「高度化」、中段（グレー背景、赤枠）に「Phase 2：外販展開」ラベルと「都市インフラ領域のDXソリューション外販／ガス外へ横展開（水道・プラント等）」の2項目、その上に上向き矢印「拡大」、最上段（黒背景、白文字、赤アクセント）に「Phase 3：新たな収益モデル構築」の見出しと「マルチインフラDXプラットフォームの確立」のキャプション。右側に階段状に「運用ツール→意思決定基盤→外販商品」の3段階ラベル。黒・白・赤のカラースキーム、Noto Sans JP フォント。"
   }
 ]

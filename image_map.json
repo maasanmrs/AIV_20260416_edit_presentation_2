@@ -1,6 +1,7 @@
 {
-  "0": {"path": "images/slide_cover.jpg"},
-  "2": {"path": "images/slide_market_diagram.jpg"},
-  "5": {"path": "images/slide_tumsy_diagram.jpg"},
-  "8": {"path": "images/slide_benefits_diagram.jpg"}
+  "0": {"path": "images/v8_slide_cover.jpg"},
+  "1": {"path": "images/v8_slide1_gis_limits.jpg"},
+  "2": {"path": "images/v8_slide2_pasco_bridge.jpg"},
+  "3": {"path": "images/v8_slide3_tumsy_matrix.jpg"},
+  "4": {"path": "images/v8_slide4_value_flow.jpg"}
 }
