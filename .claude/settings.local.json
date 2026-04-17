@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/mtims/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/e6db8f60-1f3e-41f6-9ecb-8e05cc65a54f/de7d1254-c06f-473b-8e0b-ce4a46ae788d/skills/skill-creator/**)",
+      "Bash(python -m scripts.package_skill \"G:/マイドライブ/Claude/AIV_20260416_edit_presentation_2/corporate-pitch\")",
+      "Bash(PYTHONIOENCODING=utf-8 python -m scripts.package_skill \"G:/マイドライブ/Claude/AIV_20260416_edit_presentation_2/corporate-pitch\")",
+      "Bash(PYTHONUTF8=1 PYTHONIOENCODING=utf-8 python -m scripts.package_skill \"G:/��イドライブ/Claude/AIV_20260416_edit_presentation_2/corporate-pitch\")",
+      "Bash(python -c ':*)",
+      "Bash(pip install:*)",
+      "Bash(py --version)",
+      "Bash(python -m pip install pypdf pdfplumber -q)"
+    ]
+  }
+}

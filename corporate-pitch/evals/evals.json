@@ -1,0 +1,56 @@
+[
+  {
+    "name": "basic_text_proposal",
+    "description": "テキストファイルからの基本的な提案資料生成",
+    "input": {
+      "user_message": "東京ガス様向けにAIソリューションの提案資料を作成してください。ソース資料はこちらです: mock_source_material.txt",
+      "files": ["evals/files/mock_source_material.txt"],
+      "client_name": "東京ガス株式会社",
+      "client_name_en": "Tokyo Gas Co., Ltd."
+    },
+    "expected": {
+      "steps_completed": ["dependency_check", "input_collection", "content_synthesis", "structure_proposal"],
+      "user_confirmations": ["content_summary", "slide_structure"],
+      "slide_count_min": 8,
+      "slide_count_max": 15,
+      "required_slide_types": ["cover", "agenda", "content", "back_cover"],
+      "branding": {
+        "aivalix_colors": ["#000000", "#FFFFFF"],
+        "logo_placement": true
+      },
+      "language": "ja"
+    }
+  },
+  {
+    "name": "multi_source_with_logo",
+    "description": "複数ソース＋クライアントロゴからの色抽出",
+    "input": {
+      "user_message": "日立製作所様向けの提案資料を作成。添付のPDFとロゴを使用してください。",
+      "files": ["proposal_draft.pdf", "hitachi_logo.png"],
+      "client_name": "株式会社日立製作所",
+      "client_name_en": "Hitachi, Ltd."
+    },
+    "expected": {
+      "steps_completed": ["dependency_check", "input_collection", "color_extraction", "content_synthesis"],
+      "color_extraction_attempted": true,
+      "source_extraction_types": ["pdf"],
+      "user_confirmations": ["content_summary", "slide_structure"]
+    }
+  },
+  {
+    "name": "mid_process_review",
+    "description": "中間レビューとフィードバック反映",
+    "input": {
+      "user_message": "NTT様向けのDXソリューション提案資料を作成してください。",
+      "client_name": "日本電信電話株式会社",
+      "mid_review_feedback": "テキストが多すぎるので簡潔にしてください。画像をもう少し技術的なものにしてください。"
+    },
+    "expected": {
+      "mid_review_checkpoint": true,
+      "feedback_incorporated": true,
+      "figma_file_created": true,
+      "pptx_generated": true,
+      "outputs": ["figma_url", "pptx_file"]
+    }
+  }
+]

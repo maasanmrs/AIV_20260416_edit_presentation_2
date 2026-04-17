@@ -1,0 +1,46 @@
+[
+  {
+    "slide_idx": 0,
+    "x_emu": 0,
+    "y_emu": 0,
+    "w_emu": 12188952,
+    "h_emu": 6858000,
+    "w_px": 1280,
+    "h_px": 720,
+    "style_hint": "corporate",
+    "prompt_hint": "Aerial nighttime view of a modern Japanese smart city with illuminated water infrastructure pipelines visible beneath transparent streets, glowing blue data streams flowing along the pipeline network, Tokyo skyline in the background with subtle corporate feel, dark dramatic atmosphere with blue and white accent lighting"
+  },
+  {
+    "slide_idx": 2,
+    "x_emu": 8074152,
+    "y_emu": 1819656,
+    "w_emu": 4114800,
+    "h_emu": 4535424,
+    "w_px": 432,
+    "h_px": 476,
+    "style_hint": "diagram",
+    "prompt_hint": "縦長のビジネスインフォグラフィック。上部に大きく「水道DX市場」と見出し。中央に大きな円グラフ風の図形で「1,400事業者」「72万km管路」の数値を強調表示。その下に4つの横長ボックスが縦に並ぶ：「国土強靭化計画 R9年度100%」「管路更新投資 年間1兆円」「経年化率22%超」「職員数30%減」。各ボックスの左端にアイコン（政策は旗、投資は円マーク、老朽化は警告、人材はユーザー）。黒・白・赤のカラースキーム。最下部に「GIS×AI統合パッケージで先行者優位を確保」のまとめ。"
+  },
+  {
+    "slide_idx": 5,
+    "x_emu": 8074152,
+    "y_emu": 1819656,
+    "w_emu": 4114800,
+    "h_emu": 4535424,
+    "w_px": 432,
+    "h_px": 476,
+    "style_hint": "diagram",
+    "prompt_hint": "TUMSYプラットフォームの構造を示す縦長の階層図。最上部に「TUMSY」のロゴ風テキスト。その下に5つの機能モジュールが縦に積み重なる形式で配置：「管路台帳GIS」（地図アイコン）、「施設情報管理」（データベースアイコン）、「モバイルGIS」（スマートフォンアイコン）、「公開型GIS」（地球アイコン）、「CAD・断水検索」（設計図アイコン）。各モジュールは角丸ボックスで表現し、左側にフラットデザインアイコン、右側に簡潔な説明テキスト。最下部に「水道・ガス・電力・下水道　マルチインフラ対応」の帯。白背景、黒テキスト、赤のアクセントライン。"
+  },
+  {
+    "slide_idx": 8,
+    "x_emu": 8074152,
+    "y_emu": 1819656,
+    "w_emu": 4114800,
+    "h_emu": 4535424,
+    "w_px": 432,
+    "h_px": 476,
+    "style_hint": "diagram",
+    "prompt_hint": "東京ガスのメリットを示す縦長の5段ピラミッド図。上から下へ5つの階層が積み重なる：最上段「AI付加価値で差別化」（ダイヤモンドアイコン）、2段目「ドメイン知見の転用」（歯車アイコン）、3段目「既存顧客アップセル」（上向き矢印アイコン）、4段目「全国1,400事業者へ横展開」（日本地図アイコン）、最下段「出資リターン」（グラフ右肩上がりアイコン）。各段は左に赤いアイコン、右に日本語ラベル。ピラミッド全体の右側に「三重の収益機会」を示す矢印。白背景、黒テキスト、赤アクセント。"
+  }
+]
